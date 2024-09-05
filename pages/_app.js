@@ -25,7 +25,7 @@ const ethereumHolesky = {
     decimals: 18,
   },
   rpcUrls: {
-    default: "https://holesky.infura.io/v3/9c481e1168e54cd39869bd50daa755bd",
+    default: "API Holesky",
   },
   blockExplorers: {
     default: {
@@ -42,7 +42,7 @@ const { chains, provider } = configureChains(
       rpc: (chain) => {
         if (chain.id === 17000) {
           return {
-            http: "https://holesky.infura.io/v3/9c481e1168e54cd39869bd50daa755bd",
+            http: "API Holesky",
           };
         }
         return null;
