@@ -18,4 +18,14 @@ Building a Custom Token Swap Marketplace (Uniswap Exchange) using Next.js, Solid
 
 ## DEX Project:
 
-![Genesis Project](./public/review/Review.gif)
+### Eth to Token:
+
+![Genesis Project](./public/review/Review1.gif)
+
+### Token to Token:
+
+![Genesis Project](./public/review/Review2.gif)
+
+### Token to Eth:
+
+![Genesis Project](./public/review/Review3.gif)
