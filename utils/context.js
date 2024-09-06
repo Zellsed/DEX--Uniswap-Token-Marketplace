@@ -2,7 +2,7 @@ import { BigNumber, ethers } from "ethers";
 import { contract, tokenContract } from "./contract";
 import { toEth } from "./utils";
 
-const customDexAddress = "API Contract Deploy";
+const customDexAddress = "Address Contract Deploy";
 
 export async function swapEthToToken(tokenName, amount) {
   try {
